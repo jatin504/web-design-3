@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+.main{
+    height: 100%;
+    width: 100%;
+    /* background-color: aqua; */
+}
+.nav{
+    width: 100%;
+    /* background-color: pink; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 70px;
+}
+.nav-part1{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-part1 h2:hover{
+    cursor: pointer;
+}
+.nav-part2{
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.nav-part2:hover{
+    cursor: pointer;
+}
+.nav-part1 h2,h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav-part2 h4{
+    font-size: 20px;
+    font-weight: 700;
+}
+.nav2{
+    width: 100%;
+    /* background-color: red; */
+    padding-top: 100px;
+    padding-left: 70px;
+}
+.nav2 h3{
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.content{
+    width: 100%;
+    /* background-color: pink; */
+    padding: 20px 70px;
+}
+.content h2{
+    font-size: 140px;
+    font-weight: 500;
+    line-height: 150px;
+    letter-spacing: -7px;
+}
+.case{
+    width: 100%;
+    padding-top: 15%;
+    padding-left: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.case1 h3{
+    letter-spacing: -1px;
+    font-size: 20px;
+}
+.case2{
+    padding-right: 70px;
+}
+.img{
+    width: 100%;
+    padding: 60px 70px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.img1 img{
+    max-width: 150%;  
+    height: 700px; 
+    object-fit: cover;
+    /* padding-left: 50px; */
+}
+.img2 img{
+    max-width: 150%;  
+    height: 700px;
+    object-fit: cover;  
+    /* padding-right: 50px; */
+}
+.end{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 5px 70px;
+}
+.end-ryt h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.end-ryt p{
+    color: grey;
+}
+.end-ryt-icon{
+    padding-left: 120px;
+    font-size: 50px;
+}
+.end-ryt-icon:hover{
+    cursor: pointer;
+}
+.end-left h4{
+    font-size: 30px;
+    font-weight: 600;
+}
+.end-left p{
+    color: grey;
+}
+.end-left-icon{
+    padding-left: 120px;
+    font-size: 50px;
+}
+.end-left-icon:hover{
+    cursor: pointer;
+}
